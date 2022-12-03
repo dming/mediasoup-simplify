@@ -2,7 +2,7 @@ import * as os from 'os';
 import { Duplex } from 'stream';
 import { Logger } from './Logger';
 import { EnhancedEventEmitter } from './EnhancedEventEmitter';
-import { InvalidStateError } from './errors';
+import { InvalidStateError } from './Errors';
 
 const littleEndian = os.endianness() == 'LE';
 const logger = new Logger('Channel');

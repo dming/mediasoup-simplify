@@ -1,7 +1,7 @@
 import { Logger } from './Logger';
 import { EnhancedEventEmitter } from './EnhancedEventEmitter';
 import { Worker, WorkerSettings } from './Worker';
-import * as types from './types';
+import * as types from './Types';
 
 /**
  * Expose all types.
