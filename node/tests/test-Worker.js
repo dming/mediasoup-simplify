@@ -4,7 +4,7 @@ const path = require('path');
 const { toBeType } = require('jest-tobetype');
 const mediasoup = require('../lib/');
 const { createWorker, observer } = mediasoup;
-const { InvalidStateError } = require('../lib/errors');
+const { InvalidStateError } = require('../lib/Errors');
 
 expect.extend({ toBeType });
 
