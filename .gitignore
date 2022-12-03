@@ -44,3 +44,5 @@
 # Meson.
 /worker/subprojects/*
 !/worker/subprojects/*.wrap
+
+/node/lib/
